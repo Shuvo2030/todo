@@ -103,6 +103,15 @@ header h2 {
 	outline: none;
 	font: 300 28px 'Ubuntu', sans-serif;
 	padding: 20px;
+	
+}
+.form-control:focus {
+	color: none;
+	background-color: #7f8c8d00;
+	border-color: none;
+	border: none;
+	outline: 0;
+	box-shadow: none;
 }
 
 /*
@@ -147,6 +156,7 @@ header h2 {
 .remove-task:hover {
 	color: #333;
 }
+
 
 
 

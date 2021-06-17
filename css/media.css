@@ -1,0 +1,49 @@
+/************************************ Small Display ************************************/
+@media (max-width: 575.98px){
+
+	header {
+		text-align: center;
+	}
+	header h1 {
+		font-size: 50px;
+		font-weight: 300;
+		margin: 10px 0 15px;
+		color: #7f8c8d;
+	}
+	header h1 span {
+		font-weight: 700;
+	}
+
+    .app-insert {
+        width: auto;
+        margin: 50px auto 20px;
+    }
+    .app-insert input {
+        height: 30px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #bdc3c7;
+        outline: none;
+        font: 300 14px 'Ubuntu', sans-serif;
+        padding: 5px;
+    }
+    .app-list {
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.task {
+    width: 350px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	position: relative;
+	color: #333;
+    font-size: 14px;
+	transition: all .2s ease;
+}
+
+
+
+
+}
